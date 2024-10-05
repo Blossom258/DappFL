@@ -309,9 +309,10 @@ for x in normal.values():
 ablist=dict(zip(abfunctionfrequencylist1,abfunctionfrequencylist2))
 nlist=dict(zip(nfunctionfrequencylist1,nfunctionfrequencylist2))
 
+
+
+
 plt.style.use('bmh')
-
-
 def plot_beta_hist(ax, data,label, color):
     ax.hist(np.array(data),
             histtype="stepfilled", bins=50, alpha=0.8, density=True,label=label, color=color)
