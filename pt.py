@@ -309,10 +309,6 @@ for x in normal.values():
 ablist=dict(zip(abfunctionfrequencylist1,abfunctionfrequencylist2))
 nlist=dict(zip(nfunctionfrequencylist1,nfunctionfrequencylist2))
 
-import matplotlib.pyplot as plt
-import numpy as np
-
-
 plt.style.use('bmh')
 
 
